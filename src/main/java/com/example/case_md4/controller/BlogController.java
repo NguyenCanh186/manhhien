@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Date;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/blog")
 public class BlogController {
     @Autowired
